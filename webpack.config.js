@@ -1,6 +1,4 @@
 'use strict';
-const FlowBabelWebpackPlugin = require('flow-babel-webpack-plugin');
-const FlowWebpackPlugin = require('flow-webpack-plugin');
 module.exports = {
   entry: './source/index.js',
   output: {
