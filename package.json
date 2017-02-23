@@ -1,0 +1,20 @@
+{
+  "name": "simpleParse.js",
+  "version": "0.0.0",
+  "description": "Simple JS library for parsing form data and URL parameters",
+  "main": "dist/index.js",
+  "author": "geoffdavis92@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "babel:es6": "BABEL_ENV=es6 babel --watch source/index.js -o dist/index.es6",
+    "babel:js": "BABEL_ENV=js babel --watch source/index.js -o dist/index.js",
+    "lint": "eslint dist",
+    "serve": "php -S localhost:51292"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "eslint": "^3.16.1",
+    "babel-loader": "^6.3.2",
+    "webpack": "^2.2.1"
+  }
+}
