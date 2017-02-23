@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack --watch",
+    "build": "DIST=true webpack",
     "lint": "eslint source",
     "flow": "flow check",
     "flow:init": "flow",
