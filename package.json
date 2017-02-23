@@ -1,6 +1,6 @@
 {
   "name": "simpleParse.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple JS library for parsing form data and URL parameters",
   "main": "dist/index.js",
   "author": "geoffdavis92@gmail.com",
