@@ -6,15 +6,23 @@
   "author": "geoffdavis92@gmail.com",
   "license": "MIT",
   "scripts": {
-    "babel:es6": "BABEL_ENV=es6 babel --watch source/index.js -o dist/index.es6",
-    "babel:js": "BABEL_ENV=js babel --watch source/index.js -o dist/index.js",
-    "lint": "eslint dist",
+    "start": "webpack --watch",
+    "lint": "eslint source",
+    "flow": "flow check",
+    "flow:init": "flow",
+    "test": "npm run lint; npm run flow && clear;",
     "serve": "php -S localhost:51292"
   },
   "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
     "babel-preset-es2015": "^6.22.0",
     "eslint": "^3.16.1",
-    "babel-loader": "^6.3.2",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "flow-babel-webpack-plugin": "^1.0.1",
+    "flow-bin": "^0.39.0",
+    "flow-webpack-plugin": "^0.3.6",
     "webpack": "^2.2.1"
   }
 }
