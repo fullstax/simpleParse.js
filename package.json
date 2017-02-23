@@ -1,9 +1,9 @@
 {
-  "name": "simpleParse.js",
+  "name": "simpleparse.js",
   "version": "0.0.1",
   "description": "Simple JS library for parsing form data and URL parameters",
   "main": "dist/index.js",
-  "author": "geoffdavis92@gmail.com",
+  "author": "Geoff Davis <geoffdavis92@gmail.com",
   "license": "MIT",
   "scripts": {
     "start": "webpack --watch",
@@ -12,7 +12,7 @@
     "flow": "flow check",
     "flow:init": "flow",
     "test": "npm run lint; npm run flow && clear;",
-    "serve": "php -S localhost:51292"
+    "serve": "php -S localhost:5001"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -26,5 +26,22 @@
     "flow-bin": "^0.39.0",
     "flow-webpack-plugin": "^0.3.6",
     "webpack": "^2.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstax/simpleParse.js.git"
+  },
+  "keywords": [
+    "url",
+    "parameters",
+    "form",
+    "data",
+    "parse",
+    "javascript",
+    "modules"
+  ],
+  "bugs": {
+    "url": "https://github.com/fullstax/simpleParse.js/issues"
+  },
+  "homepage": "https://github.com/fullstax/simpleParse.js#readme"
 }
